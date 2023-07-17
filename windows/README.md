@@ -11,15 +11,14 @@ El token debe tener los siguientes permisos:
 
 ## Declaración de variables de entorno
 
-Para declarar las variables de entorno en Windows, puedes usar el siguiente comando en la línea de comandos:
+Para declarar las variables de entorno en Windows, puedes usar el siguiente comando en CMD:
 
-\`\`\`cmd
-setx DT_URL_ENV "your_value"
-setx DT_TOKEN_ENV "your_value"
-setx DT_APP_CODE "your_value"
-\`\`\`
-
-Reemplaza "your_value" con los valores correspondientes para cada variable de entorno.
+set DT_APP_CODE={código de applicación}
+<br>
+set DT_URL_ENV=https://{tenant}.com
+<br>
+set DT_TOKEN_ENV={TOKEN dt0c01.XXXX.XXXXXXXXXX}
+<br>
 
 ## Detalles de cada variable de entorno
 
