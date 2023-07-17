@@ -1,8 +1,0 @@
-2023-07-16T21:00:08-05:00	info	Projects to be deployed (1):
-2023-07-16T21:00:08-05:00	info	  - monaco_mz
-2023-07-16T21:00:08-05:00	info	Environments to deploy to (1):
-2023-07-16T21:00:08-05:00	info	  - monaco
-2023-07-16T21:00:08-05:00	info	Deploying configurations to environment `monaco`...
-2023-07-16T21:00:08-05:00	info	Deploying config monaco_mz:management-zone:management-zone
-2023-07-16T21:00:08-05:00	warn	API for "management-zone" is deprecated! Please consider migrating to "builtin:management-zones"!
-2023-07-16T21:00:08-05:00	info	Deployment finished without errors
