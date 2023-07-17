@@ -1,0 +1,15 @@
+configs:
+- id: management-zone
+  config:
+    name:
+      type: environment
+      name: DT_APP_CODE
+    template: template_api.json
+    skip: false
+    parameters:
+      appcode:
+        type: environment
+        name: DT_APP_CODE
+        default: "-"
+  type:
+    api: management-zone

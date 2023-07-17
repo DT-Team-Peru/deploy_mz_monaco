@@ -1,0 +1,15 @@
+manifestVersion: "1.0"
+projects:
+- name: monaco_mz
+  path: template_path
+environmentGroups:
+- name: default
+  environments:
+  - name: monaco
+    url:
+      type: environment
+      value: DT_URL_ENV
+    auth:
+      token:
+        type: environment
+        name: DT_TOKEN_ENV
