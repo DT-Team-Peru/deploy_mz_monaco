@@ -11,7 +11,7 @@ El token debe tener los siguientes permisos:
 
 ## Declaración de variables de entorno
 
-Para declarar las variables de entorno en Windows, puedes usar el siguiente comando en CMD:
+Para declarar las variables de entorno en Windows, puedes usar el siguiente comando en `CMD`:
 
 set DT_APP_CODE={código de applicación}
 <br>
@@ -28,8 +28,5 @@ set DT_TOKEN_ENV={TOKEN dt0c01.XXXX.XXXXXXXXXX}
 
 ## Ejecución del script de PowerShell
 
-Para ejecutar el script de PowerShell llamado `deploy_management_zone_dynatrace.ps1`, utiliza el siguiente comando:
-
-\`\`\`powershell
-.\deploy_management_zone_dynatrace.ps1
-\`\`\`
+Para ejecutar el script llamado `deploy_management_zone_dynatrace.cmd`, utiliza el siguiente comando en el  `CMD`:
+`.\deploy_management_zone_dynatrace.cmd`
