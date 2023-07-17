@@ -8,7 +8,7 @@ Este documento describe cómo desplegar la herramienta de configuración como c�
 2. Tienes acceso al CLI de `kubectl` y está configurado para interactuar con tu clúster.
 3. Configuración de permisos del token
 
-### El token debe tener los siguientes permisos:
+#### El token debe tener los siguientes permisos:
 - Leer configuración (ReadConfig)
 - Escribir configuración (WriteConfig)
 - Leer configuraciones (settings.read) (API v2). Necesario para leer la configuración de ajustes.
