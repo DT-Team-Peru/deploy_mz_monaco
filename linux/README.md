@@ -14,8 +14,11 @@ El token debe tener los siguientes permisos:
 Para declarar las variables de entorno en Linux, puedes usar el siguiente comando en la terminal:<br>
 
 export DT_APP_CODE=`APKI`
+<br>
 export DT_URL_ENV=`https://tenant.dynatrace.com`
+<br>
 export DT_TOKEN_ENV=`dt0c01.XXXX.XXXXXXXXXX`
+<br>
 
 ## Detalles de cada variable de entorno
 
