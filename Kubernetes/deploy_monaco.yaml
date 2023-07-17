@@ -23,5 +23,5 @@ spec:
   - name: monaco-files
     hostPath:
       # path en la ruta
-      path: {ruta absoluta de manifest.yaml}
+      path: {ruta absoluta de deploy_path}
       type: Directory
