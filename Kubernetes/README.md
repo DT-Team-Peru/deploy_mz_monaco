@@ -23,3 +23,5 @@ Asegúrate de reemplazar los siguientes campos en el archivo `deploy_monaco.yaml
 - `{your_app_code}` con el código de la aplicación para la que estás configurando el entorno.
 - `{ruta absoluta de manifest.yaml}` con la ruta absoluta en tu nodo a la ubicación del archivo `manifest.yaml` que quieres desplegar.
 
+Para desplegar Monaco en tu clúster de Kubernetes, ejecuta:
+`kubectl apply -f deploy_monaco.yaml`
