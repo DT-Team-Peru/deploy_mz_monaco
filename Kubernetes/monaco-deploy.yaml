@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: monaco-deploy
+spec:
+  containers:
+  - name: monaco
+    image: dynatrace/dynatrace-configuration-as-code:2.5.0
+    env:
+    - name: DT_URL_ENV
+      value: "{your_dynatrace_url}"
+    - name: DT_TOKEN_ENV
+      value: "{your_dynatrace_token}"
+    - name: DT_APP_CODE
+      value: "{your_app_code}"
+    volumeMounts:
+    - name: monaco-files
+      mountPath: /deploy_path
+    workingDir: /deploy_path
+    command: ["monaco"]
+    args: ["deploy", "manifest.yaml", "--environment", "monaco"]
+  volumes:
+  - name: monaco-files
+    hostPath:
+      # path en la ruta
+      path: {ruta absoluta de manifest.yaml}
+      type: Directory
