@@ -13,11 +13,11 @@ El token debe tener los siguientes permisos:
 
 Para declarar las variables de entorno en Windows, puedes usar el siguiente comando en `CMD`:
 
-`set DT_APP_CODE=APKI`
+set DT_APP_CODE=`APKI`
 <br>
-`set DT_URL_ENV=https://tenant.dynatrace.com`
+set DT_URL_ENV=`https://tenant.dynatrace.com`
 <br>
-`set DT_TOKEN_ENV=dt0c01.XXXX.XXXXXXXXXX`
+set DT_TOKEN_ENV=`dt0c01.XXXX.XXXXXXXXXX`
 <br>
 
 ## Detalles de cada variable de entorno
