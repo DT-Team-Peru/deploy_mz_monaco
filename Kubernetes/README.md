@@ -21,7 +21,7 @@ Asegúrate de reemplazar los siguientes campos en el archivo `deploy_monaco.yaml
 - `{your_dynatrace_url}` con la URL de tu instancia de Dynatrace.
 - `{your_dynatrace_token}` con el token de tu instancia de Dynatrace.
 - `{your_app_code}` con el código de la aplicación para la que estás configurando el entorno.
-- `{ruta absoluta de manifest.yaml}` con la ruta absoluta en tu nodo a la ubicación del archivo `manifest.yaml` que quieres desplegar.
+- `{ruta absoluta de deploy_path}` con la ruta absoluta en tu nodo a la ubicación del archivo `deploy_path` que quieres desplegar.
 
 Para desplegar Monaco en tu clúster de Kubernetes, ejecuta:<br>
 `kubectl apply -f deploy_monaco.yaml`
