@@ -8,6 +8,7 @@ El token debe tener los siguientes permisos:
 - Escribir configuración (WriteConfig)
 - Leer configuraciones (settings.read) (API v2). Necesario para leer la configuración de ajustes.
 - Escribir configuraciones (settings.write) (API v2). Necesario para modificar la configuración de ajustes.
+- Access problem and event feed, metrics, and topology (DataExport)
 
 ## Declaración de variables de entorno
 
